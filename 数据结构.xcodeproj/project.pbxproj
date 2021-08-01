@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		00139C5126B4F0F10097846F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00139C5026B4F0F10097846F /* main.cpp */; };
+		00139C5B26B4F17F0097846F /* 线性表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00139C5826B4F17F0097846F /* 线性表.cpp */; };
+		00139C5C26B4F17F0097846F /* head.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00139C5926B4F17F0097846F /* head.cpp */; };
+		00139C6126B4F1EA0097846F /* tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00139C5F26B4F1EA0097846F /* tree.cpp */; };
+		00139C6326B4F1FC0097846F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00139C6226B4F1FC0097846F /* main.cpp */; };
+		00D6469C26B6AD6400776A07 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00D6469B26B6AD6400776A07 /* main.cpp */; };
+		00D6469F26B6AD7200776A07 /* map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00D6469D26B6AD7200776A07 /* map.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,15 @@
 /* Begin PBXFileReference section */
 		00139C4D26B4F0F10097846F /* 数据结构 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "数据结构"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00139C5026B4F0F10097846F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		00139C5826B4F17F0097846F /* 线性表.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "线性表.cpp"; sourceTree = "<group>"; };
+		00139C5926B4F17F0097846F /* head.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = head.cpp; sourceTree = "<group>"; };
+		00139C5A26B4F17F0097846F /* head.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = head.hpp; sourceTree = "<group>"; };
+		00139C5F26B4F1EA0097846F /* tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tree.cpp; sourceTree = "<group>"; };
+		00139C6026B4F1EA0097846F /* tree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = tree.hpp; sourceTree = "<group>"; };
+		00139C6226B4F1FC0097846F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		00D6469B26B6AD6400776A07 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		00D6469D26B6AD7200776A07 /* map.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = map.cpp; sourceTree = "<group>"; };
+		00D6469E26B6AD7200776A07 /* map.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = map.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +56,9 @@
 		00139C4426B4F0F10097846F = {
 			isa = PBXGroup;
 			children = (
+				00D6469A26B6AD4F00776A07 /* 图 */,
+				00139C5E26B4F1CD0097846F /* 树 */,
+				00139C5726B4F11B0097846F /* 线性表 */,
 				00139C4F26B4F0F10097846F /* 数据结构 */,
 				00139C4E26B4F0F10097846F /* Products */,
 			);
@@ -60,6 +78,36 @@
 				00139C5026B4F0F10097846F /* main.cpp */,
 			);
 			path = "数据结构";
+			sourceTree = "<group>";
+		};
+		00139C5726B4F11B0097846F /* 线性表 */ = {
+			isa = PBXGroup;
+			children = (
+				00139C5926B4F17F0097846F /* head.cpp */,
+				00139C5A26B4F17F0097846F /* head.hpp */,
+				00139C5826B4F17F0097846F /* 线性表.cpp */,
+			);
+			path = "线性表";
+			sourceTree = "<group>";
+		};
+		00139C5E26B4F1CD0097846F /* 树 */ = {
+			isa = PBXGroup;
+			children = (
+				00139C5F26B4F1EA0097846F /* tree.cpp */,
+				00139C6026B4F1EA0097846F /* tree.hpp */,
+				00139C6226B4F1FC0097846F /* main.cpp */,
+			);
+			path = "树";
+			sourceTree = "<group>";
+		};
+		00D6469A26B6AD4F00776A07 /* 图 */ = {
+			isa = PBXGroup;
+			children = (
+				00D6469B26B6AD6400776A07 /* main.cpp */,
+				00D6469D26B6AD7200776A07 /* map.cpp */,
+				00D6469E26B6AD7200776A07 /* map.hpp */,
+			);
+			path = "图";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +166,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00139C5B26B4F17F0097846F /* 线性表.cpp in Sources */,
+				00139C6126B4F1EA0097846F /* tree.cpp in Sources */,
+				00D6469C26B6AD6400776A07 /* main.cpp in Sources */,
+				00D6469F26B6AD7200776A07 /* map.cpp in Sources */,
 				00139C5126B4F0F10097846F /* main.cpp in Sources */,
+				00139C6326B4F1FC0097846F /* main.cpp in Sources */,
+				00139C5C26B4F17F0097846F /* head.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
